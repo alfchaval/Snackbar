@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.usuario.snackbar.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/parentLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnShow"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="SHOW"
+            />
+
+        <Button
+            android:id="@+id/btnChange"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="CHANGE"
+            />
+
+        <Button
+            android:id="@+id/btnParent"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="PARENT"
+            />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
